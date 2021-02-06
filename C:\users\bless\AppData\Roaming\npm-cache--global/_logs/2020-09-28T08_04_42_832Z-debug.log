@@ -1,0 +1,24 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'install', '-g', 'npm' ]
+2 info using npm@6.14.5
+3 info using node@v12.18.1
+4 verbose npm-session 79f642a2348deb76
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 http fetch GET 200 https://registry.npmjs.org/npm 27776ms
+8 silly fetchPackageMetaData error for npm@latest sha512-HBZVBMYs5blsj94GTeQZel7s9odVuuSUHy1+AlZh7rPVux1os2ashvEGLy/STNK7vUjbrCg5Kq9/GXisJgdf6A== integrity checksum failed when using sha512: wanted sha512-HBZVBMYs5blsj94GTeQZel7s9odVuuSUHy1+AlZh7rPVux1os2ashvEGLy/STNK7vUjbrCg5Kq9/GXisJgdf6A== but got sha512-94NbpWBBE+SvdzQXipesm+A/BPROD/LgaRHU42nIFnvas/zm4dXTKOW9jbzmBnPaaGE7iVKi5iTMG0LDVxcwyw==. (4159946 bytes)
+9 timing stage:rollbackFailedOptional Completed in 4ms
+10 timing stage:runTopLevelLifecycles Completed in 986681ms
+11 verbose stack Error: sha512-HBZVBMYs5blsj94GTeQZel7s9odVuuSUHy1+AlZh7rPVux1os2ashvEGLy/STNK7vUjbrCg5Kq9/GXisJgdf6A== integrity checksum failed when using sha512: wanted sha512-HBZVBMYs5blsj94GTeQZel7s9odVuuSUHy1+AlZh7rPVux1os2ashvEGLy/STNK7vUjbrCg5Kq9/GXisJgdf6A== but got sha512-94NbpWBBE+SvdzQXipesm+A/BPROD/LgaRHU42nIFnvas/zm4dXTKOW9jbzmBnPaaGE7iVKi5iTMG0LDVxcwyw==. (4159946 bytes)
+11 verbose stack     at Transform.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/ssri/index.js:328:19)
+11 verbose stack     at Transform.emit (events.js:327:22)
+11 verbose stack     at endReadableNT (_stream_readable.js:1221:12)
+11 verbose stack     at processTicksAndRejections (internal/process/task_queues.js:84:21)
+12 verbose cwd /Users/mac/Desktop/form-validation
+13 verbose Darwin 17.7.0
+14 verbose argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "-g" "npm"
+15 verbose node v12.18.1
+16 verbose npm  v6.14.5
+17 error code EINTEGRITY
+18 error sha512-HBZVBMYs5blsj94GTeQZel7s9odVuuSUHy1+AlZh7rPVux1os2ashvEGLy/STNK7vUjbrCg5Kq9/GXisJgdf6A== integrity checksum failed when using sha512: wanted sha512-HBZVBMYs5blsj94GTeQZel7s9odVuuSUHy1+AlZh7rPVux1os2ashvEGLy/STNK7vUjbrCg5Kq9/GXisJgdf6A== but got sha512-94NbpWBBE+SvdzQXipesm+A/BPROD/LgaRHU42nIFnvas/zm4dXTKOW9jbzmBnPaaGE7iVKi5iTMG0LDVxcwyw==. (4159946 bytes)
+19 verbose exit [ 1, true ]

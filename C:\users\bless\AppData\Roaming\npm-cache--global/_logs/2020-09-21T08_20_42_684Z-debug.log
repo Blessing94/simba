@@ -1,0 +1,30 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'react-icons',
+1 verbose cli   '--save'
+1 verbose cli ]
+2 info using npm@6.14.5
+3 info using node@v12.18.1
+4 verbose npm-session ebfb4a543e300a5b
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 http fetch GET 304 https://registry.npmjs.org/react-icons 2174ms (from cache)
+8 silly fetchPackageMetaData error for react-icons@latest sha512-JRgiI/vdF6uyBgyZhVyYJUZAop95Sy4XDe/jmT3R/bKliFWpO/uZBwvSjWEdxwzec7SYbEPNPck0Kff2tUGM2Q== integrity checksum failed when using sha512: wanted sha512-JRgiI/vdF6uyBgyZhVyYJUZAop95Sy4XDe/jmT3R/bKliFWpO/uZBwvSjWEdxwzec7SYbEPNPck0Kff2tUGM2Q== but got sha512-4dbtwcv1DPtpwLu00J2qwVWCeVOFo83+5wfl6KQczI7fCKXZXJS4hwPKZUTqNKbyqgIOZdQpOBsf9vKusFPHAA==. (7846345 bytes)
+9 timing stage:rollbackFailedOptional Completed in 99ms
+10 timing stage:runTopLevelLifecycles Completed in 1794352ms
+11 verbose stack Error: sha512-JRgiI/vdF6uyBgyZhVyYJUZAop95Sy4XDe/jmT3R/bKliFWpO/uZBwvSjWEdxwzec7SYbEPNPck0Kff2tUGM2Q== integrity checksum failed when using sha512: wanted sha512-JRgiI/vdF6uyBgyZhVyYJUZAop95Sy4XDe/jmT3R/bKliFWpO/uZBwvSjWEdxwzec7SYbEPNPck0Kff2tUGM2Q== but got sha512-4dbtwcv1DPtpwLu00J2qwVWCeVOFo83+5wfl6KQczI7fCKXZXJS4hwPKZUTqNKbyqgIOZdQpOBsf9vKusFPHAA==. (7846345 bytes)
+11 verbose stack     at Transform.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/ssri/index.js:328:19)
+11 verbose stack     at Transform.emit (events.js:327:22)
+11 verbose stack     at endReadableNT (_stream_readable.js:1221:12)
+11 verbose stack     at processTicksAndRejections (internal/process/task_queues.js:84:21)
+12 verbose cwd /Users/mac/Desktop/form-validation
+13 verbose Darwin 17.7.0
+14 verbose argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "react-icons" "--save"
+15 verbose node v12.18.1
+16 verbose npm  v6.14.5
+17 error code EINTEGRITY
+18 error sha512-JRgiI/vdF6uyBgyZhVyYJUZAop95Sy4XDe/jmT3R/bKliFWpO/uZBwvSjWEdxwzec7SYbEPNPck0Kff2tUGM2Q== integrity checksum failed when using sha512: wanted sha512-JRgiI/vdF6uyBgyZhVyYJUZAop95Sy4XDe/jmT3R/bKliFWpO/uZBwvSjWEdxwzec7SYbEPNPck0Kff2tUGM2Q== but got sha512-4dbtwcv1DPtpwLu00J2qwVWCeVOFo83+5wfl6KQczI7fCKXZXJS4hwPKZUTqNKbyqgIOZdQpOBsf9vKusFPHAA==. (7846345 bytes)
+19 verbose exit [ 1, true ]
