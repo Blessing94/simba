@@ -1,0 +1,35 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'materiul-ui'
+1 verbose cli ]
+2 info using npm@6.14.5
+3 info using node@v12.18.1
+4 verbose npm-session 349b3fc1735fcd57
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 http fetch GET 404 https://registry.npmjs.org/materiul-ui 1523ms
+8 http fetch GET 404 https://registry.npmjs.org/materiul-ui 338ms
+9 silly fetchPackageMetaData error for materiul-ui@latest 404 Not Found - GET https://registry.npmjs.org/materiul-ui - Not found
+10 timing stage:rollbackFailedOptional Completed in 14ms
+11 timing stage:runTopLevelLifecycles Completed in 33188ms
+12 verbose stack Error: 404 Not Found - GET https://registry.npmjs.org/materiul-ui - Not found
+12 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/npm-registry-fetch/check-response.js:104:15
+12 verbose stack     at processTicksAndRejections (internal/process/task_queues.js:97:5)
+13 verbose statusCode 404
+14 verbose pkgid materiul-ui@latest
+15 verbose cwd /Users/mac/Desktop/form-validation
+16 verbose Darwin 17.7.0
+17 verbose argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "materiul-ui"
+18 verbose node v12.18.1
+19 verbose npm  v6.14.5
+20 error code E404
+21 error 404 Not Found - GET https://registry.npmjs.org/materiul-ui - Not found
+22 error 404
+23 error 404 'materiul-ui@latest' is not in the npm registry.
+24 error 404 You should bug the author to publish it (or use the name yourself!)
+25 error 404 Note that you can also install from a
+26 error 404 tarball, folder, http url, or git url.
+27 verbose exit [ 1, true ]

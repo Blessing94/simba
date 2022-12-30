@@ -28,8 +28,8 @@ function Nav() {
                     </Link>
           <Link style={navStyle} to='/SignUp'>
                     <button className='signup' >Sign Up</button>
-                    </Link>
-                </ul> 
+                    </Link>        
+          </ul>
         </div>
         
         <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}> 

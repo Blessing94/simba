@@ -41,44 +41,7 @@
   background: #57c4e5;
   border: 2px solid white;
 }
-@media only screen and (min-width: 600px) {
-  .login {
-    margin-right: 2rem;
-    border: 2px solid #57c4e5;
-    color: black;
-    background: white;
-    border-radius: 18px;
-    height: 35px;
-    width: 65px;
-    text-decoration: none;
-    transition: 500ms ease;
-  }
-  .login:hover {
-    transform: scale(1.15);
-    color: white;
-    background: #57c4e5;
-    border: 2px solid white;
-  
-  }
-  .signup {
-    margin-right: 2rem;
-    margin-left: 2rem;
-    border: 2px solid #57c4e5;
-    color: black;
-    background: white;
-    border-radius: 18px;
-    height: 35px;
-    width: 65px;
-    text-decoration: none;
-    transition: 500ms ease;
-  }
-  .signup:hover {
-    transform: scale(1.15);
-    color: white;
-    background: #57c4e5;
-    border: 2px solid white;
-  }
-}
+
 .navbar {
     background-color: #060b26;
     height: 80px;
@@ -151,4 +114,16 @@
   
   span {
     margin-left: 16px;
+  }
+  @media only screen and (min-width: 600px) {
+    .home {
+      margin-right: 50px;
+      border: 2px solid #57c4e5; 
+    }
+    
+    .signup {
+      margin-right: 75px;
+      border: 2px solid #57c4e5;
+    }
+    
   }

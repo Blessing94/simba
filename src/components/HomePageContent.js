@@ -14,6 +14,27 @@ const btnline ={
     
     textDecoration: "none"
 };
+function SampleNextArrow(props) {
+  const { className, style, onClick } = props;
+  return (
+    <div
+      className={className}
+      style={{ ...style, display: "block", background: "#57c4e5" }}
+      onClick={onClick}
+    />
+  );
+}
+
+function SamplePrevArrow(props) {
+  const { className, style, onClick } = props;
+  return (
+    <div
+      className={className}
+      style={{ ...style, display: "block", background: "#57c4e5" }}
+      onClick={onClick}
+    />
+  );
+}
 
 export class HomePageContent extends Component {
     render() {
@@ -29,12 +50,25 @@ export class HomePageContent extends Component {
         focusOnSelect: true,
         slidesToScroll: 1
       };
+      var config = {
+        dots: false,
+        nextArrow: <SampleNextArrow />,
+      prevArrow: <SamplePrevArrow />,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 1,
+        centerMode: true,
+        centerPadding: '0px',
+        focusOnSelect: true,
+        slidesToScroll: 1
+      };
         return (
 
          <>
           <div className='body'>
             <div className='Intro'>
-          {<h2>Simba English</h2> } 
+              
+          <h2>Simba English</h2> 
           { <p>International Training Center</p> }
           { <p><i> "If your plan is for one year plant rice. If your plan is for 10 years plant trees, but if your plan is for 100 years Educate your Childern."</i>~ Confusious</p> }
             </div>
@@ -67,7 +101,7 @@ export class HomePageContent extends Component {
                 <div className='subContainer'>
                     <div className='enrollContainer'>
                     <h2>Come and join the pride.</h2>
-                    <Link style={btnline}to ='/Products'>
+                    <Link style={btnline}to ='/Enrolment'>
                     <div class="btnwrapper">
   <div class="link_wrapper">
     <button className='btn'>Enroll Now!</button>
@@ -131,22 +165,54 @@ export class HomePageContent extends Component {
                       </div>
                      </div>
                      </div>
-
-                     <div className="clientReviews">
-                     <div className='client1'> 
-
-                     </div>
-                     <div className='client2'> 
-
-                     </div>
-                     <div className='client3'> 
-
-                     </div>   
-                     <div className='client4'>
-                      
-                     </div>   
-                     </div>
-
+<div className='secondSlideContainer'>
+                     <h2>WHAT PEOPLE SAY</h2>
+                     <Slider {...config} className='secondSlide'>
+                     <div className = 'slide1'>
+                       <div className='slideAbout'> <h3>About Classes</h3></div>
+                       <p>
+                         "I love attending classes at Simba acedemy. the teachers are very 
+                         friendly and they help me every time i get something wrong.
+                         i dont ever want to leave this school."
+                       </p>
+                       <h3> Christin Chu</h3>
+                       <p>Student</p>
+   
+                    </div>
+                    
+                    <div className = 'slide2'>
+                    <div className='slideAbout'> <h3>ABOUT EVENTS</h3></div>
+                       
+                       <p>
+                        i like it every time we have events or trips. they are fun, 
+                        entertaining and educative. They helps us learn about new things.
+                       </p>
+                       <h3> Dru Mtero</h3>
+                       <p>Student</p>
+                    </div>
+                    
+                    <div className = 'slide3'>
+                    <div className='slideAbout'> <h3>ABOUT THE CURRICULUM</h3></div>
+                       <p>
+                         I enrolled my doughter to this school after looking at thier 
+                         curriculum and i was very impressed. They are very thorough 
+                         and teach a diverse and wide range of topics within different subjects. 
+                       </p>
+                       <h3> Bridget Booker</h3>
+                       <p>Parent</p>
+                    </div>
+                    <div className = 'slide4ç'>
+                    <div className='slideAbout'> <h3>About The Teachers</h3></div>
+                       <p>
+                         Simba acedemy boasts a roaster of highly qualified teachers who  
+                        are passionate about education. i highly recomend it if there is one in your 
+                        viccinity. 
+                       </p>
+                       <h3> Scotty Earl Lance</h3>
+                       <p>Parent</p>
+                    </div>
+</Slider> 
+</div>
                      <div className='secondBox'>
                        <div className='jobImageContainer'>
                        <h1> Good News For <span>Job Seekers</span></h1>

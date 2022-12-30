@@ -1,27 +1,27 @@
 import React, { Component } from 'react'
+import './Footer.css';
 import { FiPhone } from "react-icons/fi";
 import { BsEnvelopeOpen } from "react-icons/bs";
 import { AiOutlineMail, AiOutlineTwitter, AiOutlineInstagram, AiOutlineYoutube, AiOutlineFacebook } from "react-icons/ai";
 
-export class Footer extends React.Component {
+export class Footer extends Component {
     constructor(props) {
-        super(props);
-        this.state = {
-            value: '',
-            massege: ''        
-        };
-
+       super(props);
+        this.state = {name: ''};
+        this.state = {email: ''};
+        this.state = {message: ''}
+           
         this.handleChange = this.handleChange.bind(this);
-        this.handleSubmit = this.handleSubmit.bind(this);
-    }
-    handlemassegeChange = (event) => {
-        this.setState({
-            massege: event.target.value
-        })
-    }
+        this.handleSubmit = this.handleSubmit.bind(this); 
+
+      }
+
     handleChange(event) {
-        this.setState({value: event.target.value});
+        this.setState({name: event.target.value});
+        this.setState({email: event.target.value});
+        this.setState({messege: event.target.value});
     }
+
     handleSubmit(event) {
         alert('We will get back to you soon ' + this.state.value);
         event.preventDefault();
@@ -32,18 +32,20 @@ export class Footer extends React.Component {
             <div className='footerCover'>
               <div className='footerContent'>
                 <div className ='footerAbout'>
-                    <h2 className='footerText'>Simba <span>English</span></h2>
-                    <p> Simba English is a world class english training center that ensures that the education of kids is of hisghest standards</p>
-                    <div className='footerContact'>
-                    <p> <FiPhone className='phoneIcon'/> &nbsp; 123-456-789-10</p>
-                    <p> <AiOutlineMail className='emailIcon'/> &nbsp; info@SimbaEnglish.com</p>
-                    </div>
+                    <h2 className='footerText'>READY TO BE<span>INSPIRED?</span></h2>     
                     <div className='socials'>
                       <a href='https//www.facebook.com'><p> <AiOutlineFacebook className='facebookIcon'/> </p></a>
                       <a href='https//www.facebook.com'><p> <AiOutlineYoutube className='facebookIcon'/> </p></a>
                       <a href='https//www.facebook.com'><p> <AiOutlineInstagram className='facebookIcon'/> </p></a>
                       <a href='https//www.facebook.com'><p> <AiOutlineTwitter className='facebookIcon'/> </p></a>
+                    </div>               
+                    <div className='footerContact'>
+                      <h3> SIMBA ACEDEMY ENGLISH SCHOOL</h3>
+                      <p>555 Tingyue Xi Road, Wumian Town, Qing Pu District, Shanghai, PRC, 701555   |   TEL: +86 55 555 555</p>
+                    <p> <AiOutlineMail className='emailIcon'/> &nbsp; info@SimbaEnglish.com</p>
+                    <p> <FiPhone className='phoneIcon'/> &nbsp; 123-456-789-10</p>
                     </div>
+                   
                 </div>
 
                 <div className='footerLinks'>
@@ -66,17 +68,20 @@ export class Footer extends React.Component {
                     <form className='footerForm' onSubmit={this.handleSubmit}>
                       <div>
                       <label className='nameLabel'>
-                       
-                      <input className='nameInput' type="text" value={this.state.value} onChange={this.handleChange} placeholder='Write your Name here...!'/>
+                      <input className='nameInput' type="text" value={this.state.value} onChange={this.handleChange} placeholder='FIRST NAME'/>
                       </label>
                       </div>
                       <div>
-                      <label className='massegeLabel'>
-                       
-                       <textarea className='massegeInput' type="text" value={this.state.massege} onChange={this.handlemassegeChange} placeholder='Write your massege here...!'/>
+                      <label className='lastNameLabel'>
+                       <textarea className='massegeInput' type="text" value={this.state.value} onChange={this.handleChange} placeholder='LAST NAME'/>
                        </label>
+                       </div>
+                      <div>
+                      <label className='emailLabel'>
+                      <input className='emailInput' type="email" value={this.state.value} onChange={this.handleChange} placeholder='EMAIL'/>
+                      </label>
                       </div>
-                       <button className='footerSubmitBtn' type="submit" value="Submit" > <BsEnvelopeOpen className='submitIcon' /> Send </button>
+                       <button className='footerSubmitBtn' type="submit" value="Submit" > Send </button>
                       </form>
                 </div>
                 </div>

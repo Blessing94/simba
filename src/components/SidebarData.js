@@ -9,32 +9,32 @@ export const SidebarData = [
     cName: 'nav-text'
   },
   {
-    title: 'Reports',
-    path: '/reports',
+    title: 'Jobs',
+    path: '/jobs',
    
     cName: 'nav-text'
   },
   {
-    title: 'Products',
-    path: '/products',
+    title: 'Events',
+    path: '/events',
     
     cName: 'nav-text'
   },
   {
-    title: 'Team',
-    path: '/team',
+    title: 'Enrolment',
+    path: '/enrolment',
     
     cName: 'nav-text'
   },
   {
-    title: 'Messages',
-    path: '/messages',
+    title: 'Campuses',
+    path: '/campuses',
     
     cName: 'nav-text'
   },
   {
-    title: 'Support',
-    path: '/support',
+    title: 'Teachers',
+    path: '/teachers',
     
     cName: 'nav-text'
   }
