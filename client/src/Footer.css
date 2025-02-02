@@ -1,0 +1,245 @@
+.footer{
+    padding: 1rem;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+  }
+.footerCover {
+    background: #060b26;
+    color: white;
+    margin-top: auto;
+    margin-bottom: 0;
+    text-align: center;
+    align-items: center;
+ 
+  }
+  .footerContent {
+    color: white;
+    position: relative;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 280px 280px 330px;
+    grid-template-areas: "About" "Links" "ContactForm"; 
+    text-align: center;
+    align-items: center;
+    padding-top: 50px;
+  }
+  .footerAbout {
+    grid-area: About;
+    border-bottom: 1px solid grey;
+    padding: 1rem;
+    
+  }
+  .footerText {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .footerText span {
+    color: #57c4e5;
+  }
+  .footerContact p {
+    display:inline-block;
+    text-align: start;
+  }
+  .socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .facebookIcon {
+    height: 10vmin;
+    width: 10vmin;
+    color: white;
+  }
+  .phoneIcon, .emailIcon {
+    height: 6vmin;
+    width: 6vmin;
+    padding-top: 2px;
+  }
+  .footerLinks {
+    background-color: #57c4e5;
+    width: 100%;
+    grid-area: Links;
+    border-bottom: 1px solid grey;
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 1rem;
+    color: #060b26;
+    font-weight: bold;
+  }
+  .footerLinks ul {
+   display:inline-block;
+   text-align: left;
+   line-height: 25px; 
+   text-decoration: none;
+  }
+
+  /*.footerContactForm {
+   grid-area: ContactForm;
+    margin:2rem auto;
+  }*/
+  .footerContactForm h2 span {
+    color: #57c4e5;
+  }
+  
+  .nameInput {
+    width: 15rem;
+    height: 2rem;
+    margin-bottom: 10px;
+  }
+  .nameInput::placeholder {
+    font-size: 1.2em;
+    font-weight: lighter;
+    color: black;
+  }
+  .emailInput {
+    width: 15rem;
+    height: 2rem;
+    margin-bottom: 10px;
+  }
+  .emailInput::placeholder {
+    font-size: 1.2em;
+    font-weight: lighter;
+    color: black;
+  }
+  .massegeInput {
+    width: 15rem;
+    height:5rem;
+    margin-bottom: 5px;
+  }
+  .massegeInput::placeholder {
+    font-size: 1.2em;
+    font-weight: lighter;
+    color: black;
+    padding-top: 15px;
+  }
+
+  
+  .footerSubmitBtn {
+    display: block;
+    border: 2px solid #57c4e5;
+    background: #060b26;
+    color: #fff;
+    font-size: 25px;
+  }
+  .footerSubmitBtn:hover {
+    border: 2px solid white;
+    background: #57c4e5;
+    color: #fff;
+  }
+  .submitIcon {
+    height: 6vmin;
+    width: 6vmin;
+  }
+  .copyright {
+    position: relative;
+    background: black;
+    color: #fff;
+    text-align: center;
+    height: 50px;
+    width: 100%;
+    bottom: 0px;
+    left: 0px;
+    padding-top: 20px;
+    
+  }
+  
+  @media only screen and (min-width: 600px) {
+    
+    .footerContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+    .footerAbout {
+      /*width: 30vw;*/
+      border-bottom: none;
+      margin-bottom: auto;
+      min-height: 150px;
+      padding-top: 10px;
+     
+    }
+    .footerAbout h2 {
+      padding: 20px;
+      padding-left: 20px;
+      padding-right: 20px;
+      border: #57c4e5 1px solid;
+    }
+    .footerContact {
+      display: flex;
+      flex-direction: column;
+      margin-left: 32px;
+    }
+    .phoneIcon, .emailIcon {
+      height:20px;
+    }
+    .facebookIcon {
+      height: 30px;
+    }
+    .footerLinks {
+      /*width: 30vw;*/
+      min-height: 150px;
+      border-bottom: none;
+      margin-bottom: auto;
+      padding-top: 10px;
+    }
+    .footerContactForm {
+      width: 100vw;
+      padding-top: 10px;
+      display: flex;
+      flex-direction: row;
+      text-align: center;
+      align-items: center;
+    }
+    .footerForm {
+      display: flex;
+      flex-direction: row;
+      text-align: center;
+      justify-content: space-around;
+      align-items: center;
+    } 
+    .nameInput {
+       padding-right: 20px;
+       width: 5rem;
+       height: 5rem;
+       margin-bottom: 10px;
+     }
+     
+     .emailInput {
+       width: 5rem;
+       height: 5rem;
+       margin-bottom: 10px;
+     }
+     
+     .massegeInput {
+       width: 5rem;
+       height:5rem;
+       margin-bottom: 5px;
+     }
+     
+     .nameLabel {
+       display: inline;
+     }
+     .massegeLabel {
+      display: inline;
+     }
+     
+     .footerSubmitBtn {
+       display: inline;
+       border: 2px solid #57c4e5;
+       background: #060b26;
+       color: #fff;
+       font-size: 25px;
+     }
+     .footerSubmitBtn:hover {
+       border: 2px solid white;
+       background: #57c4e5;
+       color: #fff;
+     }
+}
