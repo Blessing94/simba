@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/Simba/static/css/main.c4d9b8fd.css",
+    "main.js": "/Simba/static/js/main.e19cf865.js",
+    "static/media/video.mp4": "/Simba/static/media/video.eb6cb2577307be1076d2.mp4",
+    "static/media/img5.jpg": "/Simba/static/media/img5.bc8ab677d5538e4bee76.jpg",
+    "static/media/campus.jpg": "/Simba/static/media/campus.337390cebb5079fc33c1.jpg",
+    "static/media/img2.jpg": "/Simba/static/media/img2.1428d442214e8578c3d9.jpg",
+    "static/media/img1.jpg": "/Simba/static/media/img1.f766bddc193ebd3aef16.jpg",
+    "static/media/img6.jpg": "/Simba/static/media/img6.a27b9aa76b964f024d56.jpg",
+    "static/media/img4.jpg": "/Simba/static/media/img4.443b82abd5df63a615f6.jpg",
+    "static/media/img3.jpg": "/Simba/static/media/img3.946551ef69d1598d41d3.jpg",
+    "static/media/teachers.jpg": "/Simba/static/media/teachers.6d2a9e53ccf3ad8a2c1b.jpg",
+    "static/media/schoolEvents.png": "/Simba/static/media/schoolEvents.37b64dfacc82ead833a5.png",
+    "static/media/img9.jpg": "/Simba/static/media/img9.2216aa7b067fc9a5ba1b.jpg",
+    "static/media/img8.jpg": "/Simba/static/media/img8.bf45b58e6550744deb58.jpg",
+    "static/media/sportsTeacher.jpg": "/Simba/static/media/sportsTeacher.49bd99c3fc91b005749f.jpg",
+    "static/media/scienceTeacher.jpg": "/Simba/static/media/scienceTeacher.021e31bfefe625c19890.jpg",
+    "static/media/slide.jpg": "/Simba/static/media/slide.9e4873934dc42f278c5b.jpg",
+    "static/media/img10.jpeg": "/Simba/static/media/img10.b050d72cf14c487b0c88.jpeg",
+    "static/media/img7.jpg": "/Simba/static/media/img7.cbe619ad57fbacb7fd90.jpg",
+    "static/media/supportservices.jpg": "/Simba/static/media/supportservices.5d41fc4767cd05386995.jpg",
+    "static/media/vacant.jpg": "/Simba/static/media/vacant.f5121d4489db62f7a64d.jpg",
+    "static/media/home.png": "/Simba/static/media/home.e0b9d474b794e9e61dd0.png",
+    "static/media/Simba-logo.png": "/Simba/static/media/Simba-logo.d0a2ff37f7f9653fc855.png",
+    "static/media/slick.svg": "/Simba/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/Simba/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/Simba/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/Simba/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/Simba/index.html",
+    "main.c4d9b8fd.css.map": "/Simba/static/css/main.c4d9b8fd.css.map",
+    "main.e19cf865.js.map": "/Simba/static/js/main.e19cf865.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c4d9b8fd.css",
+    "static/js/main.e19cf865.js"
+  ]
+}
